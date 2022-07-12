@@ -1,10 +1,19 @@
-# AngularReddit
+# Angular Reddit
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+
+## Deploying Angular App in Vercel
+Run the command below for the installation of vercel
+```$ npm i -g vercel```
+
+make sure that you are already registered and authenticated in vercel.com
+
+Once your are already authenticated go to your terminal and change directory to ```dist``` after building the angular app by running ```$ ng build --configuration production --base-href /``` then ``` $ cd dist```,  and run ```$ vercel --prod```. Your app is now running in the internet. For more information go to [Vercel Documentation](https://vercel.com/docs)
 
 ## Code scaffolding
 
